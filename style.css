@@ -29,12 +29,12 @@ a:active {
   font-weight: normal;
 }
 .topnav a:hover {
-  color: #018f64;
-  border-bottom: 1px solid #018f64;
+  color: #56ecfc;
+  border-bottom: 1px solid #56ecfc;
 }
 
 body {
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: quasimoda, sans-serif;
   margin: 2em;
   /*   background-color: #ebfff9; */
 }
@@ -108,15 +108,44 @@ h3 {
   letter-spacing: 8px;
   padding: 0px -40px;
   font-weight: bold;
+  color: black;
+}
+
+h2{
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+h4{
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: bold;
+  color: white;;
+  font-size: 42px;
 }
 
 h1 {
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: quasimoda, sans-serif;
+  font-weight: 700;
   color: white;
   font-size: 52px;
   text-align: center;
   margin: 0;
   font-weight: bold;
+}
+
+h5{
+  font-family: "Noto Sans SC", sans-serif;
+  color: black;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+h6{
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 36px;
 }
 
 .tagline h2 {
@@ -137,6 +166,7 @@ h1 {
   transition-duration: 0.4s;
   border: none;
   background-color: #c7f9ff;
+  font-family: quasimoda, sans-serif;
 }
 
 .button {
@@ -229,3 +259,19 @@ button:active {
     margin-bottom: 10px;
   }
 }
+
+.card {
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
